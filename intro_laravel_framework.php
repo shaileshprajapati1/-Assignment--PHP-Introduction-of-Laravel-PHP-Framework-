@@ -20,6 +20,7 @@
         <h3>What Is Laravel Used For?</h3>
         <ul>
             <li>Laravel is an open-source PHP framework, which is robust and easy to understand. It follows a model-view-controller design pattern.</li>
+            <li>Laravel framework promotes the MVC architectural pattern for creating web apps.</li>
             <li>There are a variety of tools and frameworks available to you when building a web application. However, we believe Laravel is the best choice for building modern, full-stack web applications.</li>
             <li>Laravel has a very rich set of features which will boost the speed of web development.</li>
             <li>If you are familiar with Core PHP and Advanced PHP, Laravel will make your task easier. It saves a lot time if you are planning to develop a website from scratch. Moreover, a website built in Laravel is secure and prevents several web attacks.</li>
@@ -66,6 +67,7 @@
         <h4><b>Query Builder and ORM(Object Relational Mapper):</b></h4>
         <ul>
             <li>Laravel incorporates a query builder which helps in querying databases using various simple chain methods. It provides ORM (Object Relational Mapper) and ActiveRecord implementation called Eloquent.</li>
+            <li>Laravel includes Eloquent, an object-relational mapper (ORM) that makes it enjoyable to interact with your database. Eloquent models allow you to insert, update, and delete records from the table as well.</li>
         </ul>
         <h4><b>Schema Builder:</b></h4>
         <ul>
@@ -78,6 +80,31 @@
             <li>Laravel uses the Blade Template engine, a lightweight template language used to design hierarchical blocks and layouts with predefined blocks that include dynamic content.</li>
             <li>Blade template files use the <b>.blade.php</b> file extension and are typically stored in the <b>resources/views </b>directory.</li>
         </ul>
+        <h4><b>E-mail:</b></h4>
+        <ul>
+            <li>Laravel includes a mail class which helps in sending mail with rich content and attachments from the web application.</li>
+        </ul>
+        <h4><b>Authentication:</b></h4>
+        <ul>
+            <li>User authentication is a common feature in web applications. Laravel eases designing authentication as it includes features such as<b> register,login, forgot password and send password reminders</b>.</li>
+            <ul>
+                <b>Auth command :</b>
+                <b>
+                    <li>composer require laravel/ui</li>
+                    <li>php artisan ui vue --auth</li>
+                    <li>npm i</li>
+                    <li>php artisan serve</li>
+                    <li>npm run dev</li>
+                </b>
+            </ul>
+        </ul>
+        <h4><b>REDIS:</b></h4>
+        <ul>
+            <li>Redis is a key-value store that's also referred to as a data structure server because it supports data types like strings, hashes, lists, sets and sorted sets.</li>
+            <li>Laravel supports the use of Redis as a cache for temporary data storage. Caching data to Redis speeds up database queries and feedback, which makes data retrieval quicker. This, in turn, makes your web applications run faster.</li>
+        </ul>
+
+
 
 
 
