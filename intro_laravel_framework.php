@@ -14,6 +14,7 @@
 
         <ul>
             <li>Laravel was developed and created by <b>Taylor Otwell </b> provide an excellent substitute for the older PHP framework named CodeIgniter.</li>
+            <li>We like to call Laravel a "progressive" framework.</li>
 
         </ul>
         <h3>What Is Laravel Used For?</h3>
@@ -50,6 +51,34 @@
         <ul>
             <li>Laravel provides 20 built in libraries and modules which helps in enhancement of the application. Every module is integrated with Composer dependency manager which eases updates.</li>
         </ul>
+        <h4><b>Testability:</b></h4>
+        <ul>
+            <li>Laravel includes features and helpers which helps in testing through various test cases. This feature helps in maintaining the code as per the requirements.</li>
+        </ul>
+        <h4><b>Routing:</b></h4>
+        <ul>
+            <li>Laravel provides a flexible approach to the user to define routes in the web application. Routing helps to scale the application in a better way and increases its performance.</li>
+        </ul>
+        <h4><b>Configuration Management:</b></h4>
+        <ul>
+            <li>A web application designed in Laravel will be running on different environments, which means that there will be a constant change in its configuration. Laravel provides a consistent approach to handle the configuration in an efficient way.</li>
+        </ul>
+        <h4><b>Query Builder and ORM(Object Relational Mapper):</b></h4>
+        <ul>
+            <li>Laravel incorporates a query builder which helps in querying databases using various simple chain methods. It provides ORM (Object Relational Mapper) and ActiveRecord implementation called Eloquent.</li>
+        </ul>
+        <h4><b>Schema Builder:</b></h4>
+        <ul>
+            <li>Schema Builder maintains the database definitions and schema in PHP code. It also maintains a track of changes with respect to database migrations.</li>
+            <li>Generating Migration Command:<b>php artisan make:migration create_tablename_table</b> </li>
+            <li>Alter table Migration Command:<b>php artisan make:migration create_alttablename_table --table=tablename</b> </li>
+        </ul>
+        <h4><b>Template Engine:</b></h4>
+        <ul>
+            <li>Laravel uses the Blade Template engine, a lightweight template language used to design hierarchical blocks and layouts with predefined blocks that include dynamic content.</li>
+            <li>Blade template files use the <b>.blade.php</b> file extension and are typically stored in the <b>resources/views </b>directory.</li>
+        </ul>
+
 
 
 
